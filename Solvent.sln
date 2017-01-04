@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solvent", "Solvent.csproj", "{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SolventSetup", "SolventSetup\SolventSetup.vdproj", "{C0F1B954-808C-40E2-8407-6282DDE8491A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolventIcon", "SolventIcon\SolventIcon.csproj", "{4A6EC5E8-6294-4FDC-BBE8-A9AEFF32861D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendToMenu_Stub", "SendToMenu_Stub\SendToMenu_Stub.csproj", "{2A75E271-3247-4570-8BE7-564237B25B73}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		SendTo Debug = SendTo Debug
+		SendTo Release = SendTo Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.Debug.ActiveCfg = Debug|.NET
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.Debug.Build.0 = Debug|.NET
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.Release.ActiveCfg = Release|.NET
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.Release.Build.0 = Release|.NET
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.SendTo Debug.ActiveCfg = SendTo Debug|.NET
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.SendTo Debug.Build.0 = SendTo Debug|.NET
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.SendTo Release.ActiveCfg = SendTo Release|.NET
+		{66999E8B-FE64-4463-B7C1-422F1DEFA8DE}.SendTo Release.Build.0 = SendTo Release|.NET
+		{C0F1B954-808C-40E2-8407-6282DDE8491A}.Debug.ActiveCfg = Debug
+		{C0F1B954-808C-40E2-8407-6282DDE8491A}.Release.ActiveCfg = Release
+		{C0F1B954-808C-40E2-8407-6282DDE8491A}.SendTo Debug.ActiveCfg = SendTo Debug
+		{C0F1B954-808C-40E2-8407-6282DDE8491A}.SendTo Release.ActiveCfg = SendTo Release
+		{4A6EC5E8-6294-4FDC-BBE8-A9AEFF32861D}.Debug.ActiveCfg = Debug|.NET
+		{4A6EC5E8-6294-4FDC-BBE8-A9AEFF32861D}.Release.ActiveCfg = Release|.NET
+		{4A6EC5E8-6294-4FDC-BBE8-A9AEFF32861D}.SendTo Debug.ActiveCfg = SendTo Debug|.NET
+		{4A6EC5E8-6294-4FDC-BBE8-A9AEFF32861D}.SendTo Release.ActiveCfg = SendTo Release|.NET
+		{2A75E271-3247-4570-8BE7-564237B25B73}.Debug.ActiveCfg = Debug|.NET
+		{2A75E271-3247-4570-8BE7-564237B25B73}.Release.ActiveCfg = Release|.NET
+		{2A75E271-3247-4570-8BE7-564237B25B73}.SendTo Debug.ActiveCfg = SendTo Debug|.NET
+		{2A75E271-3247-4570-8BE7-564237B25B73}.SendTo Debug.Build.0 = SendTo Debug|.NET
+		{2A75E271-3247-4570-8BE7-564237B25B73}.SendTo Release.ActiveCfg = SendTo Release|.NET
+		{2A75E271-3247-4570-8BE7-564237B25B73}.SendTo Release.Build.0 = SendTo Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
